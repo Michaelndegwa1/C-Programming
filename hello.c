@@ -1,6 +1,9 @@
+// \n is missing
+#include <cs50.h>
 #include <stdio.h>
+
 int main(void)
 {
-    printf("Hello, World!\n");
-    return 0;
+    string answer = get_string("What is your name?\n");
+    printf("hello, %s\n", answer);
 }
